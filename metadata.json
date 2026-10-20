@@ -1,0 +1,6 @@
+{
+  "name": "CDI Facultad de Minas - Dashboard Estratégico Decanatura",
+  "description": "Sistema de análisis contractual, justificación estratégica e impacto del talento humano del Centro de Desarrollo e Innovación (CDI) para la Decanatura de la Facultad de Minas - Universidad Nacional de Colombia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

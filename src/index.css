@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  /* Colores Principales (Identidad Visual Facultad de Minas) */
+  --color-header-teal: #007D8C;      /* Verde Azulado del encabezado superior */
+  --color-menu-orange: #FA9F1B;      /* Naranja de la barra de navegación */
+  --color-footer-pine: #005A64;      /* Verde Pino del botón TRL y barra inferior */
+
+  /* Tonos Neutros y Gráficos */
+  --color-text-dark: #3D4043;        /* Gris Grafito del texto principal "TRABAJO Y RECTITUD" */
+  --color-box-sgei: #414546;         /* Gris Pizarra del fondo del bloque SGEI */
+  --color-logo-gold: #F5A122;        /* Dorado/Amarillo del texto del escudo */
+  --color-bg-white: #FFFFFF;         /* Blanco del fondo general */
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #3D4043;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.font-mono-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Print optimizations */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
